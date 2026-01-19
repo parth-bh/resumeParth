@@ -1,0 +1,67 @@
+/* SAVE AS: classic.css */
+
+body {
+    font-family: 'Times New Roman', Times, serif; /* The Classic Look */
+    font-size: 11pt;
+    line-height: 1.4;
+    color: #000;
+    max-width: 8.5in;
+    margin: 0 auto;
+    padding: 20px 40px;
+}
+
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: normal;
+    font-size: 24pt;
+    margin-bottom: 2px;
+    letter-spacing: 1px;
+}
+
+.contact-info {
+    text-align: center;
+    font-size: 10pt;
+    margin-bottom: 15px;
+}
+
+h2 {
+    font-family: 'Arial', sans-serif; /* Sans-serif headers for contrast */
+    font-size: 12pt;
+    text-transform: uppercase;
+    border-bottom: 1px solid #000;
+    margin-top: 15px;
+    margin-bottom: 8px;
+    padding-bottom: 2px;
+}
+
+.job-header {
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    font-size: 11pt;
+}
+
+.job-subheader {
+    display: flex;
+    justify-content: space-between;
+    font-style: italic;
+    font-size: 10.5pt;
+    margin-bottom: 4px;
+}
+
+ul {
+    margin: 2px 0 10px 0;
+    padding-left: 18px;
+}
+
+li {
+    margin-bottom: 2px;
+}
+
+a { color: #000; text-decoration: none; }
+
+@media print {
+    body { margin: 0; padding: 0.5in; }
+    @page { size: A4; margin: 0; }
+}

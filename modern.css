@@ -1,0 +1,74 @@
+/* SAVE AS: modern.css */
+
+body {
+    font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    font-size: 10pt;
+    line-height: 1.5;
+    color: #333;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px;
+}
+
+h1 {
+    font-size: 28px;
+    font-weight: 700;
+    color: #2c3e50;
+    margin-bottom: 5px;
+}
+
+.contact-info {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 30px;
+}
+
+h2 {
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #2c3e50;
+    letter-spacing: 1.5px;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 10px;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+
+.job-block {
+    margin-bottom: 15px;
+}
+
+.job-header {
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+    font-weight: 600;
+    color: #000;
+}
+
+.job-subheader {
+    display: flex;
+    justify-content: space-between;
+    font-size: 13px;
+    color: #555;
+    margin-bottom: 8px;
+}
+
+ul {
+    padding-left: 15px;
+}
+
+li {
+    margin-bottom: 5px;
+    color: #444;
+}
+
+strong {
+    color: #000;
+    font-weight: 600;
+}
+
+@media print {
+    body { padding: 0; }
+    h2 { border-bottom: 2px solid #ccc; }
+}
