@@ -65,3 +65,18 @@ a { color: #000; text-decoration: none; }
     body { margin: 0; padding: 0.5in; }
     @page { size: A4; margin: 0; }
 }
+
+.tech-stack {
+    font-size: 10pt;        /* Slightly smaller than main text */
+    margin-top: 4px;        /* A little space above it */
+    margin-bottom: 10px;    /* Space below before the next job starts */
+    color: #444;            /* Dark grey text for contrast */
+    font-family: 'Arial', sans-serif; /* Clean font to stand out */
+}
+
+.tech-stack strong {
+    color: #000;            /* Make "Tech Stack:" label pure black */
+    font-weight: bold;
+    margin-right: 5px;
+}
+
